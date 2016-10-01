@@ -25,4 +25,6 @@ executable haskell-static-minimal-repro
   build-depends:
       base >= 4.7 && < 5
     , protolude
+    , text
+    , text-regex-replace
   default-language: Haskell2010

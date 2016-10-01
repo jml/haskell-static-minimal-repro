@@ -12,6 +12,8 @@ category:            Development
 dependencies:
   - base >= 4.7 && < 5
   - protolude
+  - text
+  - text-regex-replace
 
 ghc-options: -Wall -Werror
 
