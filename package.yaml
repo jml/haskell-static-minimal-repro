@@ -1,0 +1,25 @@
+name:                haskell-static-minimal-repro
+version:             0.1.0.0
+synopsis:            Minimal example of static linking with Stack
+description:         Please see README.md
+homepage:            https://github.com/jml/haskell-static-minimal-repro#readme
+license:             BSD3
+author:              Jonathan Lange
+maintainer:          jml@mumak.net
+copyright:           Jonathan M. Lange
+category:            Development
+
+dependencies:
+  - base >= 4.7 && < 5
+  - protolude
+
+ghc-options: -Wall -Werror
+
+default-extensions:
+  - NoImplicitPrelude
+  - OverloadedStrings
+
+executables:
+  haskell-static-minimal-repro:
+    source-dirs:      src
+    main:             Main.hs
